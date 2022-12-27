@@ -98,6 +98,61 @@ body {
         } 
     }
   }
+
+              //CONTACT
+              .contact-page {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: $color-two;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+  
+                .form-title {
+                  width: 100%;
+                  margin-bottom: 6rem;
+                  h1 { 
+                    font-size: 98px;
+                    font-weight: 600;
+                    color: white;
+                  }
+                }
+      
+                #form-wrapper {
+                  width: 600px;
+                  #contact-form {
+                    /* background-image: url('../assets/images/formbg.jpg'); */
+                    background-color: $color-two;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 50px;
+                    border: 10px solid white;
+                    gap: 2rem;
+                    background-size: cover;
+                    .form-field {
+                      display: flex;
+                      flex-direction: column;
+                      input {
+                        width: 100%;
+                        font-size: 1.6rem;
+                        padding: 8px 20px;
+                        font-family: $font-body;
+                        color: #121212;
+                        outline: none;
+                        border: none;
+                        border-radius: 2px;
+                      }
+                      textarea {
+                        width: 100%;
+                      }
+                    }
+      
+                  }
+                }
+              }
 }
 
 .carousel {
